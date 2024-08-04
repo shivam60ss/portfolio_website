@@ -16,11 +16,11 @@
             <nav>
                 <img src="IMG/logo_shivam.png" alt="logotxt" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li data-reveal="left"><a href="#header">Home</a></li>
+                    <li data-reveal="left"><a href="#about">About</a></li>
+                    <li data-reveal="left"><a href="#services">Services</a></li>
+                    <li data-reveal="left"><a href="#portfolio">Portfolio</a></li>
+                    <li data-reveal="left"><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
@@ -28,9 +28,9 @@
             </nav>
 
             <div class="header-text">
-                <p>Graphic Designer</p>
-                <h1>Hi, I'm <span>Shivam</span> Kumar from India</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto iure totam accusantium<br>
+                <p data-reveal="left">Graphic Designer</p>
+                <h1 data-reveal="left">Hi, I'm <span>Shivam</span> Kumar from India</h1>
+                <p data-reveal="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto iure totam accusantium<br>
                     doloribus fugiat porro tempora laborum vitae inventore ratione,<br> ut quos obcaecati, commodi
                     numquam.</p>
             </div>
@@ -40,24 +40,24 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1">
+                <div class="about-col-1" data-reveal="left">
                     <img src="IMG/shivam_aboutme.png" alt="ABOUT">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium saepe tenetur iusto
+                    <h1 class="sub-title" data-reveal="left">About Me</h1>
+                    <p data-reveal="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium saepe tenetur iusto
                         beatae sed id impedit veritatis doloremque error ipsum ratione eaque tempore, nisi fuga
                         consectetur dolor optio. Quasi consectetur aut nobis ad dolorum ducimus accusamus laboriosam
                         perferendis dicta perspiciatis reprehenderit ullam sint minus dolor illo soluta, possimus
                         veniam.</p>
 
                     <div class="tap-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" data-reveal="left" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" data-reveal="left" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" data-reveal="left" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
+                        <ul data-reveal="left">
                             <li><span>UI?UX</span><br>Designing web/App interface</li>
                             <li><span>Web Development</span><br>Designing web/App interface</li>
                             <li><span>Graphic Designer</span><br>Designing web/App interface</li>
@@ -65,7 +65,7 @@
                     </div>
                     <!-- --------------------------->
                     <div class="tab-contents" id="experience">
-                        <ul>
+                        <ul data-reveal="left">
                             <li><span>UI?UX</span><br>Designing web/App interface (2023-2024)</li>
                             <li><span>Web Development</span><br>Designing web/App interface</li>
                             <li><span>Graphic Designer</span><br>Designing web/App interface</li>
@@ -73,7 +73,7 @@
                     </div>
                     <!-- --------------------------->
                     <div class="tab-contents" id="education">
-                        <ul>
+                        <ul data-reveal="left">
                             <li><span>UI?UX</span><br>Designing web/App interface</li>
                             <li><span>Web Development</span><br>Designing web/App interface</li>
                             <li><span>Graphic Designer</span><br>Designing web/App interface</li>
@@ -89,23 +89,23 @@
     <!-- ------------------------------services-------------- -->
     <div id="services">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title" data-reveal="right">My Services</h1>
             <div class="services-list">
-                <div>
+                <div data-reveal="left">
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis distinctio
                         dolores? Id, deleniti rerum?</p>
                     <a href="#">Learn more</a>
                 </div>
-                <div>
+                <div data-reveal="left">
                     <i class="fa-solid fa-crop"></i>
                     <h2>UI/UX Design</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis distinctio
                         dolores? Id, deleniti rerum?</p>
                     <a href="#">Learn more</a>
                 </div>
-                <div>
+                <div data-reveal="left">
                     <i class="fa-solid fa-filter"></i>
                     <h2>Graphic Design</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis distinctio
@@ -119,9 +119,9 @@
     <!-- -----------------------portfolio-------------------- -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title" data-reveal="right">My Work</h1>
             <div class="work-list">
-                <div class="work">
+                <div class="work" data-reveal="left">
                     <img src="IMG/shivam_aboutme.png" alt="">
                     <div class="layer">
                         <h3>Social Media App</h3>
@@ -132,7 +132,7 @@
 
                     </div>
                 </div>
-                <div class="work">
+                <div class="work" data-reveal="left">
                     <img src="IMG/shivam_aboutme.png" alt="">
                     <div class="layer">
                         <h3>Social Media App</h3>
@@ -143,7 +143,7 @@
 
                     </div>
                 </div>
-                <div class="work">
+                <div class="work" data-reveal="left">
                     <img src="IMG/shivam_aboutme.png" alt="">
                     <div class="layer">
                         <h3>Social Media App</h3>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="#" class="btn"><p data-reveal="left">See more</p></a>
 
         </div>
     </div>
@@ -164,10 +164,10 @@
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1>Contact Me</h1>
-                    <p><i class="fa-regular fa-paper-plane"></i>shivamranaind@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>6201537260</p>
-                    <div class="social-icons">
+                    <h1 data-reveal="left">Contact Me</h1>
+                    <p data-reveal="left"><i class="fa-regular fa-paper-plane"></i>shivamranaind@gmail.com</p>
+                    <p data-reveal="left"><i class="fa-solid fa-phone"></i>6201537260</p>
+                    <div class="social-icons" data-reveal="left">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.instagram.com/shivammm.ss?igsh=MWFnNnhzczl0cjdibg=="><i
                                 class="fa-brands fa-instagram"></i></a>
@@ -176,7 +176,7 @@
                     </div>
                     <a href="IMG/Shivam's Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
-                <div class="contact-right">
+                <div class="contact-right" data-reveal="left">
                     <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
@@ -196,6 +196,7 @@
 
 
     <!-- ------------------------------------------------------------------------------ -->
+     <SCRipt src="portfolio.js"></SCRipt>
     <script>
         // about---->script-------------
 
@@ -234,9 +235,9 @@
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     msg.innerHTML = "Message sent successfully"
-                    setTimeout(function(){
+                    setTimeout(function () {
                         msg.innerHTML = ""
-                    },5000)
+                    }, 5000)
                     form.reset()
                 })
                 .catch(error => console.error('Error!', error.message))
